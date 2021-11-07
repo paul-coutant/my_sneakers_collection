@@ -1,0 +1,8 @@
+.categories{
+  color:#3D3D3D ;
+  text-decoration: none;
+  transition: color 0.7s ease;
+}
+.categories:hover {
+  color:#F4F0F1 ;
+  text-decoration: none;

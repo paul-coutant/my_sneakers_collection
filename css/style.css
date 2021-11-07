@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url("components/container.css");
+@import url("components/categories.css");
+@import url("components/banner.css");
+
+body{ 
+	
+
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color:  #C1C1C1 ;
+	font-weight: 400
+	font-size: 25px 
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px ;
+	font-weight: 900 ; 
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: #000000;
+}
+
+h3{
+font-family: 'Roboto', sans-serif;
+
+	font-size: 18px ;
+	font-weight: 800 ; 
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: #000000;
+
+}
+
+
+
+.styled {
+
+	font-family: 'Montserrat', sans-serif;
+	color:  #C1C1C1 ;
+	font-weight: 400
+	font-size: 25px   ;
+	font-weight: 400
+	font-size: 25px 
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
